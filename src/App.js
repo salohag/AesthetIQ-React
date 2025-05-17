@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react';
 
 function App() {
   return (
     <div>
-      <h1>Hello from AesthetIQ App!</h1>
+      <h1>Welcome to AesthetIQ 💖</h1>
     </div>
   );
 }
