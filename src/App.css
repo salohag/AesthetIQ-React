@@ -1,0 +1,51 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Playfair Display', serif;
+  background-color: #f7f5f2;
+}
+
+.hero {
+  background: linear-gradient(to bottom right, #e7d8c9, #fffaf3);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay {
+  text-align: center;
+  padding: 40px;
+}
+
+.title {
+  font-size: 3em;
+  color: #2e2e2e;
+}
+
+.title span {
+  color: #b48e6f;
+  font-style: italic;
+}
+
+.tagline {
+  font-size: 1.2em;
+  color: #5c5c5c;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.cta {
+  background-color: #b48e6f;
+  color: white;
+  border: none;
+  padding: 14px 30px;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.cta:hover {
+  background-color: #a17455;
+}
