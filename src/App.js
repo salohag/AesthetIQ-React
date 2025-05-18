@@ -1,3 +1,6 @@
+function App() {
+  // ... all your code ...
+}
 <Dialog>
   <DialogTrigger asChild>
     <Button className="bg-[#2f2f2f] text-white hover:bg-[#1f1f1f]">Book Now</Button>
@@ -51,5 +54,6 @@
     </form>
   </DialogContent>
 </Dialog>
+export default App;
 
 
